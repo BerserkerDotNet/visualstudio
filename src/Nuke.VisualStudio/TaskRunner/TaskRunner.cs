@@ -29,7 +29,7 @@ namespace Nuke.VisualStudio.TaskRunner
                     PackageIds.cmdAttach,
                     PackageGuids.guidNukePackageCmdSet,
                     false,
-                    "--attach-visual-studio-debugger"),
+                    "--visual-studio-debug"),
                 new TaskRunnerOption(
                     "Skip dependencies",
                     PackageIds.cmdSkip,

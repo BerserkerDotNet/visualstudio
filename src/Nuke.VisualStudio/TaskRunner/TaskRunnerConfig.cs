@@ -26,7 +26,7 @@ namespace Nuke.VisualStudio.TaskRunner
 
             if (Directory.Exists(temporaryDirectory))
             {
-                _watcher = new FileSystemWatcher(temporaryDirectory, "visual-studio.dbg")
+                _watcher = new FileSystemWatcher(temporaryDirectory, "visual-studio-debug.log")
                 {
                     EnableRaisingEvents = true
                 };
