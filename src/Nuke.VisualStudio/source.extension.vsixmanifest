@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="Nuke.VisualStudio" Version="0.2.1" Language="en-US" Publisher="NUKE" />
+        <Identity Id="Nuke.VisualStudio" Version="0.2.2" Language="en-US" Publisher="NUKE" />
         <DisplayName>NUKE Support</DisplayName>
         <Description xml:space="preserve">Task Runner integration for execution of targets and code snippets for authoring</Description>
         <MoreInfo>https://github.com/nuke-build/visual-studio</MoreInfo>

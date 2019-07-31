@@ -52,6 +52,9 @@ namespace Nuke.VisualStudio.TaskRunner
 
         private void AttachToBuild(string debugFile)
         {
+            if (!File.Exists(debugFile))
+                return;
+            
             ThreadHelper.ThrowIfNotOnUIThread();
             
             var processes = NukePackage.Dte.Debugger.LocalProcesses.Cast<Process>();
